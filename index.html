@@ -23,12 +23,12 @@
 
     </div>
 
-    <script src="./client.bundle.js"></script>
+    <script src="./client.bundle?platform=vr"></script>
     <script>
       // Initialize the React 360 application
       function enterApp() {
         React360.init(
-          'index.bundle.js',
+          'index.bundle?platform=vr&dev=true',
           document.getElementById('initialize'),
           {
             assetRoot: 'static_assets/',
